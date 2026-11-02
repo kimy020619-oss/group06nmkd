@@ -34,3 +34,6 @@
 
 # Where to Buy layout
 - [x] Rearrange the page to the supplied reference without changing page width or any text size: two-column hero (title + hotline/directions buttons left, dark opening-hours card with live open/closed badge right), one unified three-row contact card with circular icons, social cards with icons and @handles, dashed-outline question card (2 Nov).
+
+# Home cleanup (remix)
+- [x] Remove the closing "Make a memory / Your Moments Deserve to Be Remembered" CTA section from Home (user screenshot, 2 Nov).
