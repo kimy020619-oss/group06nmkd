@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { useEffect, useRef } from "react";
 import { ButtonLink } from "@/components/SiteLayout";
 
 export const Route = createFileRoute("/about")({
@@ -60,6 +61,26 @@ function ValueTicket({ label }: { label: string }) {
 }
 
 function About() {
+  const valuesRef = useRef<HTMLUListElement>(null);
+
+  useEffect(() => {
+    const list = valuesRef.current;
+    if (!list || window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    if (!("IntersectionObserver" in window)) return;
+    const tickets = Array.from(list.querySelectorAll<HTMLElement>(".value-ticket"));
+    if (list.getBoundingClientRect().top > window.innerHeight) {
+      tickets.forEach((t) => t.classList.add("value-ticket-waiting"));
+    }
+    const observer = new IntersectionObserver(([entry]) => {
+      if (entry?.isIntersecting) {
+        tickets.forEach((t, i) => window.setTimeout(() => t.classList.remove("value-ticket-waiting"), i * 100));
+        observer.disconnect();
+      }
+    }, { threshold: 0.15 });
+    observer.observe(list);
+    return () => observer.disconnect();
+  }, []);
+
   return (
     <>
       <section className="border-b border-border bg-secondary/60">
@@ -88,7 +109,7 @@ function About() {
             ))}
           </div>
           <p className="eyebrow about-eyebrow mt-12">Core values</p>
-          <ul className="mt-5 flex flex-wrap gap-x-10 gap-y-5">
+          <ul ref={valuesRef} className="mt-5 flex flex-wrap gap-x-10 gap-y-5">
             {VALUES.map((v) => (
               <ValueTicket key={v} label={v} />
             ))}
