@@ -41,7 +41,7 @@ import stripSolo from "@/assets/strip-solo.png.asset.json";
 import stripPair from "@/assets/strip-pair.webp.asset.json";
 import stripFriends from "@/assets/strip-friends.png.asset.json";
 import stripBirthday from "@/assets/strip-birthday.png.asset.json";
-import { ButtonLink, Section, Wordmark } from "@/components/SiteLayout";
+import { ButtonLink, Section } from "@/components/SiteLayout";
 import { Reveal } from "@/components/Reveal";
 import { ADDONS, BRAND, PACKAGES, formatVND } from "@/lib/site-data";
 
@@ -119,6 +119,5 @@ function Index() {
 
     <section className="home-souvenirs-wrap"><Reveal className="home-souvenirs"><Souvenirs /></Reveal></section>
 
-    <section className="border-t border-border bg-secondary/40"><Section className="text-center"><Reveal><Wordmark className="mx-auto mb-7 h-16 w-auto" /><p className="eyebrow">Make a memory</p><h2 className="mx-auto mt-4 max-w-2xl text-3xl leading-tight md:text-5xl">Your Moments Deserve<br />to Be <span className="italic text-primary">Remembered.</span></h2><p className="mt-5 text-muted-foreground">Find the package that suits your moment.</p><div className="mt-8"><ButtonLink to="/products">Explore Packages</ButtonLink></div></Reveal></Section></section>
   </>;
 }
