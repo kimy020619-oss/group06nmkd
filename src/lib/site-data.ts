@@ -91,12 +91,12 @@ export const PROMOTIONS = [
   {
     name: "Birthday Treat",
     headline: "1 free photo strip",
-    condition: "With a package priced at 59,000 VND or above during your birthday month.",
+    condition: "With any package from 70,000 VND during your birthday month.",
   },
   {
     name: "Bring Your Bestie",
     headline: "Save 10,000 VND",
-    condition: "On a bill of 79,000 VND or above for a group of three or more people.",
+    condition: "For groups of 3 or more choosing the Bestie Package or above.",
   },
 ];
 
