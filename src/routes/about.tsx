@@ -109,7 +109,7 @@ function About() {
             ))}
           </div>
           <p className="eyebrow about-eyebrow mt-12">Core values</p>
-          <ul className="mt-5 flex flex-wrap gap-x-10 gap-y-5">
+          <ul ref={valuesRef} className="mt-5 flex flex-wrap gap-x-10 gap-y-5">
             {VALUES.map((v) => (
               <ValueTicket key={v} label={v} />
             ))}
