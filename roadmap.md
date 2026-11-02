@@ -17,6 +17,8 @@
 - [x] Fade the Suggested pick badge in with a slight scale on page load, give its card a stronger border, and brighten the badge on hover (user screenshot, 1 Nov).
 
 # Promotions voucher game
+- [x] Reword Birthday Treat ("With any package from 70,000 VND during your birthday month.") and Bring Your Bestie ("For groups of 3 or more choosing the Bestie Package or above.") — wording only, layout/colors/fonts untouched (2 Nov).
+
 
 # Font change
 - [x] Match the Home story and philosophy titles to the opening title reference, with regular-weight italic second lines (2 November).
