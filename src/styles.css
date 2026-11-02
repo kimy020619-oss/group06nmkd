@@ -278,7 +278,7 @@ body:has(.home-cover) { --background: oklch(0.965 0.016 65); --foreground: oklch
 .value-ticket-fill { fill: var(--booth-brown); }
 .value-ticket-line { fill: none; stroke: var(--linen); stroke-width: 1; opacity: 0.85; vector-effect: non-scaling-stroke; }
 .value-ticket-perf { stroke-dasharray: 2 2; }
-.value-ticket-spark { fill: var(--linen); }
+.value-ticket-spark { fill: var(--linen); transition: filter 300ms ease, opacity 300ms ease; }
 .value-ticket-label {
   position: relative;
   width: 64%;
@@ -292,9 +292,10 @@ body:has(.home-cover) { --background: oklch(0.965 0.016 65); --foreground: oklch
   font-weight: 600;
 }
 .value-ticket:hover {
-  transform: translateY(-3px);
+  transform: translateY(-3px) rotate(2.5deg);
   filter: drop-shadow(0 12px 16px color-mix(in oklab, var(--espresso) 25%, transparent));
 }
+.value-ticket:hover .value-ticket-spark { filter: drop-shadow(0 0 3px var(--linen)) drop-shadow(0 0 7px var(--linen)); }
 @media (prefers-reduced-motion: reduce) {
   .value-ticket:hover { transform: none; filter: none; }
 }
