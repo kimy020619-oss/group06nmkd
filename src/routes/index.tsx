@@ -94,7 +94,7 @@ function Index() {
     </Section>
 
     <div className="border-y border-border bg-secondary/30"><Section>
-      <Reveal><div className="flex flex-wrap items-end justify-between gap-5"><div><p className="eyebrow">Photo experiences</p><h2 className="mt-3 text-3xl md:text-4xl">Your people. Your moment.</h2></div><ButtonLink to="/products" variant="outline">See what's included</ButtonLink></div></Reveal>
+      <Reveal><div className="flex flex-wrap items-end justify-between gap-5"><div><p className="eyebrow">Photo experiences</p><h2 className="mt-3 text-3xl md:text-4xl">Your moment deserves to be remembered</h2></div><ButtonLink to="/products" variant="outline">See what's included</ButtonLink></div></Reveal>
       <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">{PACKAGES.map((pkg, i) => { const photo = EXPERIENCE_IMAGES[i]; return <Reveal key={pkg.name}><article className="home-package experience-card flex h-full flex-col overflow-hidden rounded-md border border-border bg-card"><div className="relative aspect-[4/5] overflow-hidden">{photo && <img src={photo.src} alt={photo.alt} width={photo.width} height={photo.height} loading="lazy" className="h-full w-full object-contain" />}{pkg.tag && <span className="absolute bottom-3 left-3 bg-card px-3 py-2 font-heading text-xs font-semibold text-primary">{pkg.tag}</span>}</div><div className="flex flex-1 flex-col p-5"><h3 className="text-base font-semibold">{pkg.name}</h3><p className="mt-2 min-h-10 text-sm text-muted-foreground">{pkg.audience}</p><p className="mt-auto pt-5 font-display text-xl text-primary"><span className="block border-t border-border pt-4">{formatVND(pkg.price)}</span></p></div></article></Reveal>; })}</div>
     </Section></div>
 
