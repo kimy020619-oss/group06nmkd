@@ -1,6 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ButtonLink, PageHero, Section } from "@/components/SiteLayout";
-import { PROMOTIONS } from "@/lib/site-data";
+import { PROMOTIONS, PROMOTION_COMBINING_RULE, BESTIE_VOUCHER_RULE } from "@/lib/site-data";
 import { VoucherGame } from "@/components/VoucherGame";
 
 export const Route = createFileRoute("/promotions")({
@@ -33,7 +33,8 @@ function Promotions() {
         </div>
         <div className="mt-10 rounded-xl border-l-4 border-primary bg-secondary/60 p-6">
           <p className="font-heading font-bold">Promotions cannot be combined.</p>
-          <p className="mt-1 text-muted-foreground">If more than one promotion could apply, only one promotion may be used per transaction. Please confirm the applicable offer before purchase.</p>
+          <p className="mt-1 text-muted-foreground">{PROMOTION_COMBINING_RULE}</p>
+          <p className="mt-1 text-muted-foreground">{BESTIE_VOUCHER_RULE}</p>
         </div>
         <div className="mt-10"><ButtonLink to="/products">Explore Packages</ButtonLink></div>
       </Section>
