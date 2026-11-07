@@ -8,9 +8,9 @@ import type { LucideIcon } from "lucide-react";
 
 const ADDON_DETAILS: Record<string, { icon: LucideIcon; note: string }> = {
   "Extra Photo Strip": { icon: Film, note: "More prints, more memories." },
-  "Custom Photo Frame": { icon: Crop, note: "A personal touch to keep." },
+  "Custom Name Frame": { icon: Crop, note: "A personal touch to keep." },
   "Digital Photo File": { icon: ImageIcon, note: "Your moments, always accessible." },
-  "Photo Holder / Sleeve": { icon: Bookmark, note: "Keep your prints protected." },
+  "Photo Sleeve": { icon: Bookmark, note: "Keep your prints protected." },
 };
 import philosophyBooth from "@/assets/philosophy-booth.png.asset.json";
 
