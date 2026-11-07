@@ -54,3 +54,6 @@
 
 # Promotions voucher rule
 - [x] Add "Bring Your Bestie voucher: one per group, not issued on visits that use a voucher." under the no-combining note — content only, layout/colors/fonts untouched (7 Nov).
+
+# Student Day headline
+- [x] Change the Student Day headline to "10% off package" — content only, layout/colors/fonts untouched (7 Nov).

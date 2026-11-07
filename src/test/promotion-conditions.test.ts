@@ -4,8 +4,8 @@ import { BESTIE_VOUCHER_RULE, PROMOTIONS, PROMOTION_COMBINING_RULE } from "@/lib
 const promotionOf = (name: string) => PROMOTIONS.find((p) => p.name === name);
 
 describe("promotions", () => {
-  it("keeps Student Day at 10% off on weekdays with a valid student ID", () => {
-    expect(promotionOf("Student Day")?.headline).toBe("10% off");
+  it("keeps Student Day at 10% off package on weekdays with a valid student ID", () => {
+    expect(promotionOf("Student Day")?.headline).toBe("10% off package");
     expect(promotionOf("Student Day")?.condition).toBe(
       "On weekdays (Mon-Thu) with a valid student ID.",
     );
