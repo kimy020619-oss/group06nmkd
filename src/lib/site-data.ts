@@ -102,6 +102,12 @@ export const PROMOTIONS = [
   },
 ];
 
+export const PROMOTION_COMBINING_RULE =
+  "If more than one promotion could apply, only one promotion may be used per transaction. Please confirm the applicable offer before purchase.";
+
+export const BESTIE_VOUCHER_RULE =
+  "Bring Your Bestie voucher: one per group, not issued on visits that use a voucher.";
+
 export const NAV = [
   { to: "/", label: "Home" },
   { to: "/about", label: "About Us" },
