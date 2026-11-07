@@ -51,3 +51,6 @@
 
 # Products wording (reference images 9 & 10)
 - [x] Basic Package note → "Photo props not included. Digital file available as an add-on."; Special Edition session line → "One photo session for up to four people", frame line → "Exclusive Special Occasion Frame with your name, date or message", plus "One digital photo file"; add-ons renamed "Custom Name Frame" and "Photo Sleeve" — content only, layout/colors/fonts untouched (7 Nov).
+
+# Promotions voucher rule
+- [x] Add "Bring Your Bestie voucher: one per group, not issued on visits that use a voucher." under the no-combining note — content only, layout/colors/fonts untouched (7 Nov).
