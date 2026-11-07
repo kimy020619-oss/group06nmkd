@@ -87,7 +87,7 @@ export const ADDONS = [
 export const PROMOTIONS = [
   {
     name: "Student Day",
-    headline: "10% off",
+    headline: "10% off package",
     condition: "On weekdays (Mon-Thu) with a valid student ID.",
   },
   {
