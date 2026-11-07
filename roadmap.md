@@ -45,3 +45,6 @@
 
 # Special Edition inclusions
 - [x] Under the 120,000 VND price, add "A special themed frame with your name, date, message" and "Free use of photo props" — wording only, layout/colors/fonts untouched (7 Nov).
+
+# Promotions wording (reference image 1)
+- [x] Set the three promotion cards to the reference wording: Student Day "On weekdays (Mon-Thu) with a valid student ID."; Birthday Treat adds "Valid ID required. Once per year."; Bring Your Bestie headline "10,000 VND voucher" plus "Valid for your next visit within 30 days." — content only, layout/colors/fonts untouched (7 Nov).

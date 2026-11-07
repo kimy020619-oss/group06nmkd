@@ -87,17 +87,17 @@ export const PROMOTIONS = [
   {
     name: "Student Day",
     headline: "10% off",
-    condition: "When you present a valid student ID.",
+    condition: "On weekdays (Mon-Thu) with a valid student ID.",
   },
   {
     name: "Birthday Treat",
     headline: "1 free photo strip",
-    condition: "With any package from 70,000 VND during your birthday month.",
+    condition: "With any package from 70,000 VND during your birthday month. Valid ID required. Once per year.",
   },
   {
     name: "Bring Your Bestie",
-    headline: "Save 10,000 VND",
-    condition: "For groups of 3 or more choosing the Bestie Package or above.",
+    headline: "10,000 VND voucher",
+    condition: "For groups of 3 or more choosing the Bestie Package or above. Valid for your next visit within 30 days.",
   },
 ];
 
