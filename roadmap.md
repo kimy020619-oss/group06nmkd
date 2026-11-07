@@ -42,3 +42,6 @@
 
 # Couple & Friends wording
 - [x] Change the Couple & Friends audience line to "For couples and small groups of up to 3 people" — wording only, layout/colors/fonts untouched (7 Nov).
+
+# Special Edition inclusions
+- [x] Under the 120,000 VND price, add "A special themed frame with your name, date, message" and "Free use of photo props" — wording only, layout/colors/fonts untouched (7 Nov).
