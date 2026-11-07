@@ -36,7 +36,7 @@ export const PACKAGES: Package[] = [
     price: 50000,
     audience: "For an individual or a pair",
     includes: ["One photo session", "Two printed photo strips", "One available frame design"],
-    note: "Photo props and digital files not included.",
+    note: "Photo props not included. Digital file available as an add-on.",
   },
   {
     name: "Couple & Friends",
@@ -67,10 +67,11 @@ export const PACKAGES: Package[] = [
     price: 120000,
     audience: "For birthdays, anniversaries & seasonal occasions",
     includes: [
-      "One photo session",
+      "One photo session for up to four people",
       "Four printed photo strips",
-      "A special themed frame with your name, date, message",
+      "Exclusive Special Occasion Frame with your name, date or message",
       "Free use of photo props",
+      "One digital photo file",
       "One small souvenir (sticker or photo sleeve)",
     ],
   },
@@ -78,9 +79,9 @@ export const PACKAGES: Package[] = [
 
 export const ADDONS = [
   { name: "Extra Photo Strip", price: 10000 },
-  { name: "Custom Photo Frame", price: 15000 },
+  { name: "Custom Name Frame", price: 15000 },
   { name: "Digital Photo File", price: 10000 },
-  { name: "Photo Holder / Sleeve", price: 15000 },
+  { name: "Photo Sleeve", price: 15000 },
 ];
 
 export const PROMOTIONS = [
