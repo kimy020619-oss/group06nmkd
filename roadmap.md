@@ -48,3 +48,6 @@
 
 # Promotions wording (reference image 1)
 - [x] Set the three promotion cards to the reference wording: Student Day "On weekdays (Mon-Thu) with a valid student ID."; Birthday Treat adds "Valid ID required. Once per year."; Bring Your Bestie headline "10,000 VND voucher" plus "Valid for your next visit within 30 days." — content only, layout/colors/fonts untouched (7 Nov).
+
+# Products wording (reference images 9 & 10)
+- [x] Basic Package note → "Photo props not included. Digital file available as an add-on."; Special Edition session line → "One photo session for up to four people", frame line → "Exclusive Special Occasion Frame with your name, date or message", plus "One digital photo file"; add-ons renamed "Custom Name Frame" and "Photo Sleeve" — content only, layout/colors/fonts untouched (7 Nov).
