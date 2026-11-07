@@ -39,3 +39,6 @@
 
 # Home cleanup (remix)
 - [x] Remove the closing "Make a memory / Your Moments Deserve to Be Remembered" CTA section from Home (user screenshot, 2 Nov).
+
+# Couple & Friends wording
+- [x] Change the Couple & Friends audience line to "For couples and small groups of up to 3 people" — wording only, layout/colors/fonts untouched (7 Nov).
