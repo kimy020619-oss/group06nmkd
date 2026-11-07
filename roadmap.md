@@ -57,3 +57,6 @@
 
 # Student Day headline
 - [x] Change the Student Day headline to "10% off package" — content only, layout/colors/fonts untouched (7 Nov).
+
+# Couple & Friends frame line
+- [x] Drop "Choice of an available themed frame" from the Couple & Friends list, matching the supplied card reference which shows no frame line — content only, layout/colors/fonts untouched (7 Nov).
