@@ -45,6 +45,7 @@ export const PACKAGES: Package[] = [
     includes: [
       "One photo session",
       "Four printed photo strips",
+      "Choice of standard frames",
       "Free use of photo props",
     ],
     note: "Digital file available as an add-on.",
