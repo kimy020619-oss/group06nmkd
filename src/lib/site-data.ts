@@ -80,7 +80,7 @@ export const ADDONS = [
   { name: "Extra Photo Strip", price: 10000 },
   { name: "Custom Name Frame", price: 15000 },
   { name: "Digital Photo File", price: 10000 },
-  { name: "Photo Sleeve", price: 15000 },
+  { name: "Photo Sleeve", price: 5000 },
 ];
 
 export const PROMOTIONS = [

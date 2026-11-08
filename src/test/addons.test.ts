@@ -17,7 +17,7 @@ describe("Optional add-ons", () => {
     expect(addonOf("Extra Photo Strip")?.price).toBe(10000);
     expect(addonOf("Custom Name Frame")?.price).toBe(15000);
     expect(addonOf("Digital Photo File")?.price).toBe(10000);
-    expect(addonOf("Photo Sleeve")?.price).toBe(15000);
+    expect(addonOf("Photo Sleeve")?.price).toBe(5000);
   });
 
   it("keeps the retired add-on names out of the list", () => {
