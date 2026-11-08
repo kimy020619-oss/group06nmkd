@@ -41,7 +41,7 @@ export const PACKAGES: Package[] = [
   {
     name: "Couple & Friends",
     price: 70000,
-    audience: "For couples and small groups of up to 3 people",
+    audience: "For couples and small groups of 2–3 people",
     includes: [
       "One photo session",
       "Four printed photo strips",
