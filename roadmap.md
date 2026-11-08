@@ -60,3 +60,6 @@
 
 # Couple & Friends frame line
 - [x] Drop "Choice of an available themed frame" from the Couple & Friends list, matching the supplied card reference which shows no frame line — content only, layout/colors/fonts untouched (7 Nov).
+
+# Photo Sleeve price
+- [x] Set the Photo Sleeve add-on price to 5,000 VND — price only, layout/colors/fonts untouched (8 Nov).
