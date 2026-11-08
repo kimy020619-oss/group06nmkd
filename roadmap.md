@@ -66,3 +66,6 @@
 
 # Couple & Friends frame line
 - [x] Add "Choice of standard frames" as the third bullet in the Couple & Friends list, matching reference image 1 — content only, layout/colors/fonts untouched (8 Nov).
+
+# Bestie Package frame line
+- [x] Add "Choice of 2 frames design" as the third bullet in the Bestie Package list, matching reference image 1 — content only, layout/colors/fonts untouched (8 Nov).
