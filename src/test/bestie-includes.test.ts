@@ -19,7 +19,7 @@ describe("Bestie Package inclusions", () => {
   });
 
   it("keeps the audience line and price untouched", () => {
-    expect(bestie?.audience).toBe("For friend groups of up to four people");
+    expect(bestie?.audience).toBe("For friend groups of 3–4 people");
     expect(bestie?.price).toBe(90000);
   });
 });
