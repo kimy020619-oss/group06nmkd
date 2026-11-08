@@ -72,3 +72,6 @@
 
 # Couple & Friends audience line
 - [x] Change the Couple & Friends audience line to "For couples and small groups of 2–3 people" — content only, layout/colors/fonts untouched (8 Nov).
+
+# Bestie Package audience line
+- [x] Change the Bestie Package audience line to "For friend groups of 3–4 people" — content only, layout/colors/fonts untouched (8 Nov).
