@@ -58,6 +58,7 @@ export const PACKAGES: Package[] = [
     includes: [
       "One photo session for up to four people",
       "Four printed photo strips",
+      "Choice of 2 frames design",
       "One digital photo file",
       "Free use of photo props",
     ],
