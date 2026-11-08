@@ -69,3 +69,6 @@
 
 # Bestie Package frame line
 - [x] Add "Choice of 2 frames design" as the third bullet in the Bestie Package list, matching reference image 1 — content only, layout/colors/fonts untouched (8 Nov).
+
+# Couple & Friends audience line
+- [x] Change the Couple & Friends audience line to "For couples and small groups of 2–3 people" — content only, layout/colors/fonts untouched (8 Nov).
